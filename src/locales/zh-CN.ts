@@ -183,6 +183,13 @@ export default {
     ,add2more:'请添加两张以上图片'
     ,no1m:'图片大小不能超过{m}M'
     ,imgExt:'图片仅支持jpg,gif,png,jpeg格式'
+    ,setSync:'同步Midjourney、Suno设置'
+
+    ,addGPTS:'新增GPTs'
+    ,addPlaceholder:'将GPTs的gid贴这儿 也可直接贴gpts的链接'
+    ,gidError:'未找到有效的gid，请重新填写'
+    ,success3:'新增GPTs成功！'
+    
   },
   mj:{
     setOpen:'OpenAI 相关',
@@ -287,6 +294,9 @@ export default {
     ,micRec:'开始录音,请说话！2秒内无声音将自动关闭'
     ,micRecEnd:'录音已结束'
 
+    ,subtle:'高清2倍'
+    ,creative:'高清2倍.创意'
+    ,gpt_gx:'GPTs用g-*'
   },
 
 	draw: {
@@ -376,6 +386,35 @@ export default {
 			landscape: "风景 (3:2)",
 		},
 	}
+
+  ,suno:{
+    description:"描述模式"
+    ,custom:"定制模式"
+    ,style:'歌曲风格'
+    ,stylepls:'歌曲名称比如:流行音乐'
+    ,emputy:'暂无内容'
+    ,noly:'无歌词'
+    ,inputly:'请输入歌曲名称或歌词'
+    ,doingly:"正在执行请稍后."
+    ,doingly2: "正在获取歌词..."
+    ,title:'歌曲名称'
+    ,titlepls:'歌曲名称比如:假期'
+    ,desc:'歌曲描述'
+    ,descpls:'歌曲描述 比如:关于假期的原声流行音乐'
+    ,noneedly:'无需歌词'
+    ,rank:'随机获取'
+    ,ly:'歌词'
+    ,lypls:'歌词:有一定的格式'
+    ,generate:'创作歌曲'
+    ,generately:'生成歌词'
+    ,nodata:'请先创作才有歌曲列表'
+
+    ,menu:'音乐'
+    ,menuinfo:'Suno 音乐创作'
+    ,server:'Suno 接口地址'
+    ,serverabout:'Suno 相关'
+    ,setOpenKeyPlaceholder:'Suno API 的相关KEY；可不填'
+  }
 
 
 }
